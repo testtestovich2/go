@@ -1,7 +1,153 @@
 .book{
-  margin-bottom: 100px;
+  background-color: #440F51;
+  color: #fff;
+  padding: 80px 0;
+  /*margin-bottom: 100px;*/
 }
 
 .book__title{
   margin-bottom: 50px;
+}
+
+.book__fieldset{
+  border: none;
+  margin-bottom: 60px;
+}
+
+.book__subtitle{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.book__subtitle_3{
+  margin-bottom: 23px;
+}
+
+.book__fieldset_container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.book__input-hall{
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.book__label-hall{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 55px;
+  min-width: 250px;
+  cursor: pointer;
+  padding: 0 15px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 8px;
+  user-select: none;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.book__box-entertainment{
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book__subtitle_3{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.book__fieldset_console{
+  display: flex;
+  flex-direction: column;
+}
+
+.book__label-console{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.book__label-console:not(:last-child){
+  margin-bottom: 20px;
+}
+
+.book__input-console{
+  margin-right: 12px;
+  width: 27px;
+  height: 27px;
+}
+
+.book__container-date{
+  display: flex;
+  justify-content: space-between;
+}
+
+.book__column{
+  flex-basis: 300px;
+}
+
+.book__row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+
+.book__label-date,
+.book__label-time{
+  flex-basis: 134px;
+}
+
+.book__select{
+  width: 100%;
+  height: 52px;
+  padding: 0 20px;
+}
+
+.book__label-name{
+  margin-top: -22px;
+  padding-bottom: 6px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.book__label-name:not(:last-child){
+  margin-bottom: 36px;
+}
+
+.book__input-name{
+  height: 52px;
+}
+
+.book__btn{
+  display: block;
+  margin-left: auto;
+
+  text-transform: uppercase;
+  color: #6C0287;
+  background-color: #fff;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  padding: 16px 50px;
+}
+
+.book__fieldset_last{
+  margin-bottom: 40px;
 }

@@ -1,7 +1,3 @@
-.our-halls{
-  margin-bottom: 100px;
-}
-
 .our-halls__title{
   font-weight: 700;
   font-size: 40px;
@@ -12,27 +8,47 @@
 }
 
 .our-halls__list{
-  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .our-halls__item{
-  height: 710px;
-  margin: 0;
-}
-
-.our-halls__item:nth(:last-child){
-  margin-bottom: 60px;
-}
-
-.our-halls__figure{
-  margin: 0 auto;
-}
-
-.our-halls__figcaption{
-  margin-top: -50%;
-  transform: translateY(70px);
+  flex-basis: 580px;
+  min-height: 349px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  /*height: 703px;*/
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-halls__item_1{
+  background-image: url("../img/halls/1.jpg");
+}
+
+.our-halls__item_2{
+  background-image: url("../img/halls/2.jpg");
+}
+
+.our-halls__item_3{
+  background-image: url("../img/halls/3.jpg");
+}
+
+.our-halls__item_4{
+  background-image: url("../img/halls/4.jpg");
+}
+
+
+.our-halls__text{
   text-transform: uppercase;
+  flex-basis: 252px;
   font-weight: 700;
   font-size: 70px;
   line-height: 80px;

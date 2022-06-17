@@ -5,6 +5,7 @@
   /*background-size: contain;*/
   /*background-position: bottom right;*/
   margin-bottom: 100px;
+  position: relative;
 }
 
 .banner__container{
@@ -37,4 +38,57 @@
   font-size: 28px;
   line-height: 50px;
   padding-left: 100px;
+  margin-bottom: 30px;
+}
+
+.banner__box{
+  display: flex;
+}
+
+.banner__hall-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 193px;
+  margin-bottom: 150px;
+}
+
+.banner__hall-number{
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 141px;
+  color: #CD06FF;
+}
+
+.banner__hall-number_small{
+  font-size: 75px;
+}
+
+.banner__hall-text{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.banner__btn{
+  /*filter: blur(20px);*/
+  border: none;
+  box-shadow: 0 5px 30px #6C0287;
+  background-color: #6C0287;
+  border-radius: 10px;
+  color: #fff;
+
+  padding: 25px 69px;
+  text-transform: uppercase;
+}
+
+.banner__arrow{
+  position: absolute;
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
 }

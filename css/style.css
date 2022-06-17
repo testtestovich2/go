@@ -38,7 +38,7 @@ a {
   color: inherit;
 }
 
-ul {
+ul, ol {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -93,7 +93,7 @@ iframe {
 */
 
 section {
-  /*padding: 50px 0;*/
+  padding: 50px 0;
 }
 
 .title{

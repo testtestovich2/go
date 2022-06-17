@@ -1,0 +1,29 @@
+.header{
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+.header__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__btn{
+  text-transform: uppercase;
+  border: 3px solid #CD06FF;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  padding: 12px 32px;
+  color: inherit;
+  background-color: transparent;
+}
+
+.nav__list{
+  display: flex;
+  column-gap: 40px;
+  text-transform: uppercase;
+}

@@ -1,5 +1,6 @@
-.contacts{
-
+.footer{
+  background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+  /*min-height: 629px;*/
 }
 
 .contacts__title{
@@ -8,6 +9,8 @@
   line-height: 50px;
   text-transform: uppercase;
   text-align: center;
+
+  margin-bottom: 40px;
 }
 
 .contacts__text{
@@ -69,4 +72,40 @@
 .social__item{
   display: inline-block;
   margin-right: 26px;
+}
+
+.contacts__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright{
+  padding: 50px 0 10px 0;
+}
+
+.copyright__row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__column:first-child{
+  max-width: 325px;
+}
+
+.copyright__text,
+.author__name,
+.author__email{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.author{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.author__name{
+  margin-bottom: 6px;
 }
