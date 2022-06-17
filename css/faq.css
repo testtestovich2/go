@@ -33,10 +33,21 @@
   top: 50%;
   transform: translateY(-50%);
   right: 50px;
+  cursor: pointer;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.faq__item:hover::after{
+  background-image: url("../img/open-purple-bg.svg");
 }
 
 .faq__item:nth-child(even)::after{
   background-image: url("../img/open.svg");
+}
+
+.faq__item:hover::after{
+  background-image: url("../img/open-white.svg");
 }
 
 .faq__item:last-child{

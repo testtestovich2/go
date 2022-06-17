@@ -54,6 +54,25 @@
   font-size: 30px;
   line-height: 40px;
   text-transform: uppercase;
+
+  border: 3px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.book__label-hall:hover{
+  background-color: #EADEED;
+  border: 3px solid #640AA3;
+}
+
+.book__label-hall:active{
+  background-color: #6C0287;
+  border: 3px solid #FFFFFF;
+  color: #fff;
+}
+
+.book__label-hall:focus{
+  background-color: #FFFFFF;
+  border: 3px solid #640AA3;
 }
 
 .book__box-entertainment{
@@ -87,6 +106,11 @@
   margin-right: 12px;
   width: 27px;
   height: 27px;
+  border: 1px solid transparent;
+}
+
+.book__input-console:focus{
+  outline: 1px solid #CD06FF;
 }
 
 .book__container-date{
@@ -132,6 +156,12 @@
 
 .book__input-name{
   height: 52px;
+  outline: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.book__input-name:focus{
+  outline: 2px solid #CD06FF;
 }
 
 .book__btn{
@@ -146,6 +176,20 @@
   font-size: 22px;
   line-height: 28px;
   padding: 16px 50px;
+}
+
+.book__btn:hover{
+  background-color: #EADEED;
+  border: 3px solid #6C0287;
+}
+
+.book__btn:active{
+  background-color: #EADEED;
+}
+
+.book__btn:focus{
+  background-color: #FFFFFF;
+  border: 3px solid #6C0287;
 }
 
 .book__fieldset_last{

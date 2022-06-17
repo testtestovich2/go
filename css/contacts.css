@@ -109,3 +109,29 @@
 .author__name{
   margin-bottom: 6px;
 }
+
+.social__link{
+  display: inline-block;
+  border: 1px solid transparent;
+}
+
+.social__link:focus{
+  border: 1px solid #CD06FF;
+}
+
+.social__path{
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.social__path:hover{
+  fill: #EADEED;
+}
+
+.social__path:active{
+  fill: #CD06FF;
+}
+
+.social__path:focus{
+  border: 1px solid #CD06FF;
+}
