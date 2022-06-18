@@ -2,8 +2,6 @@
   margin-bottom: 40px;
 }
 
-.reviews__list{}
-
 .reviews__item{
   margin-bottom: 50px;
 }
@@ -21,7 +19,26 @@
 
 .reviews__img{
   border-radius: 50%;
+}
+
+.reviews__gradient{
+  display: inline-block;
+  position: relative;
+  line-height: 0;
   margin-bottom: 17px;
+}
+
+.reviews__gradient::after{
+  border-radius: 50%;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  background-image: var(--bg-reviews-gradient);
 }
 
 .reviews__figcaption{

@@ -1,6 +1,5 @@
 .footer{
-  background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
-  /*min-height: 629px;*/
+  background-image: var(--bg-footer-gradient);
 }
 
 .contacts__title{
@@ -116,7 +115,7 @@
 }
 
 .social__link:focus{
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--color-btn-main);
 }
 
 .social__path{
@@ -125,15 +124,15 @@
 }
 
 .social__path:hover{
-  fill: #EADEED;
+  fill: var(--color-btn-hover-purple);
 }
 
 .social__path:active{
-  fill: #CD06FF;
+  fill: var(--color-btn-main);
 }
 
 .social__path:focus{
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--color-btn-main);
 }
 
 .author__email,
@@ -145,17 +144,17 @@
 .author__email:hover,
 .contacts__phone:hover,
 .contacts__email:hover{
-  color: #6C0287;
+  color: var(--color-btn-hover);
 }
 
 .author__email:active,
 .contacts__phone:active,
 .contacts__email:active{
-  color: #640AA3;
+  color: var(--color-btn-active);
 }
 
 .author__email:focus,
 .contacts__phone:focus,
 .contacts__email:focus{
-  color: #6C0287;
+  color: var(--color-btn-hover);
 }

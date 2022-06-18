@@ -20,7 +20,12 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  /*padding: 6px 40px;*/
+  transition: all 0.3s ease-in-out;
+}
+
+.advantage__item:nth-child(2),
+.advantage__item:nth-child(5){
+  transform: translateY(70px);
 }
 
 .advantage__item:hover{
