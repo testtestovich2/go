@@ -23,6 +23,10 @@
   /*padding: 6px 40px;*/
 }
 
+.advantage__item:hover{
+  transform: scale(1.1);
+}
+
 .advantage__item_1{
   background-image: url("../img/advantage/1.jpg");
 }
