@@ -46,10 +46,18 @@
   background-image: url("../img/open.svg");
 }
 
-.faq__item:hover::after{
+.faq__item:nth-child(even):hover::after{
   background-image: url("../img/open-white.svg");
 }
 
 .faq__item:last-child{
   margin-bottom: 0;
+}
+
+.faq__item:active::after{
+  background-image: url("../img/open-active-purple.svg");
+}
+
+.faq__item:nth-child(even):active::after{
+  background-image: url("../img/open-active-white.svg");
 }

@@ -1,6 +1,6 @@
 .header{
-  padding-top: 30px;
-  margin-bottom: 50px;
+  padding-top: 13px;
+  margin-bottom: -40px;
 }
 
 .header__container{
@@ -46,7 +46,11 @@
 }
 
 .nav__link{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 50px;
   transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
 }
 
 .nav__link:hover{

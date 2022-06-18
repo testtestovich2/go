@@ -134,9 +134,47 @@
 }
 
 .book__select{
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  background-color: #fff;
+  padding: 12px 40px 12px 20px;
   width: 100%;
-  height: 52px;
-  padding: 0 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.book__select:focus{
+  outline: 2px solid #CD06FF;
+}
+
+/* Для IE в 10 и 11*/
+.book__select::-ms-expand{
+  display: none;
+}
+
+.book__label-date,
+.book__label-time,
+.book__label-person{
+  position: relative;
+}
+
+.book__label-date::before,
+.book__label-time::before,
+.book__label-person::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  display: block;
+  width: 21px;
+  height: 15px;
+  background-image: url("../img/select-arrow.svg");
+  background-repeat: no-repeat;
+
+  pointer-events: none;
 }
 
 .book__label-name{

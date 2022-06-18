@@ -20,8 +20,8 @@
   background-image: url("../img/banner_vr.png");
   background-repeat: no-repeat;
   background-size: contain;
-  width: 675px;
-  height: 762px;
+  width: 686px;
+  height: 761px;
 }
 
 .banner__title{
@@ -61,7 +61,12 @@
 }
 
 .banner__hall-number_small{
-  font-size: 75px;
+  padding-top: 40px;
+  font-weight: 900;
+  padding-left: 53px;
+  font-size: 62px;
+  line-height: 106px;
+  text-transform: uppercase;
 }
 
 .banner__hall-text{
@@ -81,10 +86,15 @@
   border-radius: 10px;
   color: #fff;
 
-  padding: 25px 69px;
-  text-transform: uppercase;
+  padding: 25px 30px;
 
   transition: all 0.3s ease-in-out;
+  max-width: 375px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  text-transform: uppercase;
 }
 
 .banner__btn:hover{
@@ -101,7 +111,7 @@
 
 .banner__arrow{
   position: absolute;
-  bottom: 90px;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;

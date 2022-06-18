@@ -135,3 +135,27 @@
 .social__path:focus{
   border: 1px solid #CD06FF;
 }
+
+.author__email,
+.contacts__phone,
+.contacts__email{
+  transition: all 0.3s ease-in-out;
+}
+
+.author__email:hover,
+.contacts__phone:hover,
+.contacts__email:hover{
+  color: #6C0287;
+}
+
+.author__email:active,
+.contacts__phone:active,
+.contacts__email:active{
+  color: #640AA3;
+}
+
+.author__email:focus,
+.contacts__phone:focus,
+.contacts__email:focus{
+  color: #6C0287;
+}
